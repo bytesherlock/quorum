@@ -1,7 +1,4 @@
-# Support setting various labels on the final image
-ARG COMMIT=""
-ARG VERSION=""
-ARG BUILDNUM=""
+
 
 # Build Geth in a stock Go builder container
 FROM golang:1.19-alpine as builder
